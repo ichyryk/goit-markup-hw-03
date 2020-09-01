@@ -1,3 +1,10 @@
+    /* цвет основого текста #757575 */
+    /* заголовок #212121*/
+    /* вторичный цвет текста rgba(255, 255, 255, 0.6)*/
+    /* акцент #2196F3 */
+    /* белый #FFFFFF /*
+    /* background #2F303A (black) ,#E5E5E5 (white), #F5F4FA (blue) */
+
 :root {
     --primery-text-color: #757575;
     --title-text-color: #212121;
@@ -13,12 +20,6 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
    }
-/* цвет основого текста #757575 */
-/* заголовок #212121*/
-/* вторичный цвет текста rgba(255, 255, 255, 0.6)*/
-/* акцент #2196F3 */
-/* белый #FFFFFF /*
-/* background #2F303A (black) ,#E5E5E5 (white), #F5F4FA (blue) */
 
 ul {
     list-style: none;
@@ -27,7 +28,7 @@ ul {
 
 .page-header {
     background-color: var(--primery-white-color);
-    outline: 5px solid plum;
+    outline: 15px solid plum;
 }
 
 .page-header .logo {

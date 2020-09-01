@@ -25,8 +25,24 @@ ul {
 }
 /* Section */
 .section {
-    padding-top: 0px;
+    padding-top: 94px;
     padding-bottom: 94px;
+    /* background-color: tomato; */
+}
+.section.no-padding {
+    padding-top: 94px;
+    padding-bottom: 0;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
     /* background-color: tomato; */
 }
 
@@ -70,25 +86,14 @@ ul {
     text-decoration: none;
 }
 
-/* Section */
-.section-title {
-    margin-top: 0;
-    margin-bottom: 50px;
-
-    color: var(--title-text-color);
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    background-color: tomato;
-}
-
 /* Features */
 
 .feature-list .title {
     margin-top: 0;
     margin-bottom: 10px;
+
     color: var(--title-text-color);
+
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -96,7 +101,10 @@ ul {
 
 .feature-list .text {
     margin-top: 0;
+    margin-bottom: 0;
+
     color: var(--primery-text-color);
+
     font-weight: normal;
     font-size: 14px;
     line-height: 1,71;
@@ -106,14 +114,21 @@ ul {
 /* Team */
 
 .team-list .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
     color: var(--title-text-color);
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 }
 
 .team-list .text {
+    margin-top: 0;
+
     color: var(--primery-text-color);
+
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
