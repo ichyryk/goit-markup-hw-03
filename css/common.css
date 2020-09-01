@@ -1,0 +1,124 @@
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primery-white-color: #FFFFFF;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --footer-background-color: #2F303A;
+    /* var */
+}
+
+body {
+    background-color: var(--primery-white-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+   }
+/* цвет основого текста #757575 */
+/* заголовок #212121*/
+/* вторичный цвет текста rgba(255, 255, 255, 0.6)*/
+/* акцент #2196F3 */
+/* белый #FFFFFF /*
+/* background #2F303A (black) ,#E5E5E5 (white), #F5F4FA (blue) */
+
+ul {
+    list-style: none;
+}
+/* Site header */
+
+.page-header {
+    background-color: var(--primery-white-color);
+    outline: 5px solid plum;
+}
+
+.page-header .logo {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.page-header .logo-accent {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.contact .link{
+    color: var(--primery-text-color);
+    text-decoration: none;
+}
+
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer */
+.footer{
+    background-color: var(--footer-background-color)
+}
+.footer .logo {
+     color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.footer .logo-accent
+{
+    color: var(--accent-color);
+}
+
+
+.post-address .link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.post-address {
+    color: var(--primery-white-color);
+}
+
+
+ .footer .link {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+.footer .secondary {
+    color: #FFFFFF;
+}
+
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--accent-color);
+}
