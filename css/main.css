@@ -98,6 +98,15 @@ ul {
 }
 
 /* Features */
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-list .item {
+    width: 270px;
+    background-color: tomato;
+}
 
 .feature-list .title {
     margin-top: 0;

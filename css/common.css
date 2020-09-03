@@ -34,6 +34,7 @@ ul {
 
 .page-header {
     background-color: var(--primery-white-color);
+    padding-left: 20px;
    
 }
 
@@ -53,12 +54,15 @@ ul {
 .main-nav {
     display: flex;
     align-items: center;
+
 }
 
 /* Site nav */
 .site-nav {
     display: flex;
     margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav .item{

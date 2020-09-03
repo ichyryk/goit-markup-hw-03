@@ -1,3 +1,10 @@
+/* цвет основого текста #757575 */
+/* заголовок #212121*/
+/* вторичный цвет текста rgba(255, 255, 255, 0.6)*/
+/* акцент #2196F3 */
+/* белый #FFFFFF /*
+/* background #2F303A (black) ,#E5E5E5 (white), #F5F4FA (blue) */
+
 :root {
     --primery-text-color: #757575;
     --title-text-color: #212121;
@@ -14,17 +21,40 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
    }
-/* цвет основого текста #757575 */
-/* заголовок #212121*/
-/* вторичный цвет текста rgba(255, 255, 255, 0.6)*/
-/* акцент #2196F3 */
-/* белый #FFFFFF /*
-/* background #2F303A (black) ,#E5E5E5 (white), #F5F4FA (blue) */
 
 ul {
     list-style: none; 
  }
 
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+    /* outline: 15px solid plum; */
+
+ }
+/* Портфолио */
+ .flex-container {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: teal;
+ }
+
+ .flex-element {
+   margin-right: 30px;
+   margin-bottom: 30px;
+   width: calc((100% - 30px * 2) / 3);
+   background-color: tomato;
+ }
+ .flex-element:nth-child(3n){
+   margin-right: 0;
+}
+ .flex-element:nth-last-child(-n + 3) {
+   margin-bottom: 0;
+}
+/* Button */
  .button .primary{
     color: var(--primery-white-color);
     background-color: var(--accent-color);
@@ -35,14 +65,21 @@ ul {
     color: var(--accent-color);
  }
 
- .list .title {
+
+/* Список елементoв*/
+.flex-list {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 0;
+}
+.flex-list .title {
     color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
  }
 
- .list .text {
+ .flex-list .text {
     color: var(--primery-text-color);
     font-weight: normal;
     font-size: 16px;
