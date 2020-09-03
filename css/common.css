@@ -33,6 +33,8 @@ ul {
 /* Site header */
 
 .page-header {
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--primery-white-color);
     padding-left: 20px;
    
@@ -54,7 +56,6 @@ ul {
 .main-nav {
     display: flex;
     align-items: center;
-
 }
 
 /* Site nav */
@@ -122,10 +123,13 @@ ul {
 
 
 /* Footer */
-.footer{
-    background-color: var(--footer-background-color)
+.page-footer{
+    background-color: var(--footer-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-.footer .logo {
+.page-footer .logo {
+    margin-bottom: 20px;
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
     font-weight: 200;
@@ -134,33 +138,47 @@ ul {
     text-decoration: none;
 }
 
-.footer .logo-accent
-{
+.page-footer .logo-accent {
     color: var(--accent-color);
 }
 
+.page-footer .link {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
 
-.post-address .link {
+.page-footer .secondary {
+    color: #FFFFFF;
+}
+
+/* Address */
+
+.address {
+    margin-bottom: 9px;
+    font-style: normal;
+}
+.address .link {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
 }
-.post-address {
+.address {
     color: var(--primery-white-color);
 }
 
 
- .footer .link {
-    color: var(--secondary-text-color);
-    text-decoration: none;
+/*  Contact */
+.contact-footer {
+    padding-left: 0;
+    font-style: normal;
 }
 
-.footer .secondary {
-    color: #FFFFFF;
-}
-
-.contact .link:hover,
-.contact .link:focus{
+.contact-footer .link:hover,
+.contact-footer .link:focus{
     color: var(--accent-color);
+}
+
+.contact-footer .mail {
+    margin-bottom: 9px;
 }

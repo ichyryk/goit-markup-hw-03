@@ -29,6 +29,13 @@ body {
 ul {
     list-style: none;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Section */
 .section {
     padding-top: 94px;
@@ -46,7 +53,7 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     width: 1200px;
-    /* outline: 15px solid plum; */
+    outline: 15px solid plum;
 
 }
 
@@ -103,9 +110,16 @@ ul {
     flex-wrap: wrap;
 }
 
+.section-title-feature {
+    display: none;
+}
 .feature-list .item {
-    width: 270px;
-    background-color: tomato;
+    width: calc((100% - 30px * 3)/4);
+    margin-right: 30px;
+}
+
+.feature-list .item:nth-child(4n) {
+    margin-right: 0;
 }
 
 .feature-list .title {
@@ -130,11 +144,45 @@ ul {
     line-height: 1,71;
 }
 
+/* Work list */
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-list .item {
+    width: calc((100% - 30px * 2)/3);
+    margin-right: 30px;
+}
+
+.work-list .item:nth-child(3n) {
+    margin-right: 0;
+}
+
 
 /* Team */
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
 
+.team-list .item {
+    width: calc((100% - 30px * 3)/4);
+    margin-right: 30px;
+    background-color: var(--primery-white-color);
+    text-align: center;
+}
+
+.team-list .item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.team-list .member {
+     margin-bottom: 30px;
+}
 .team-list .title {
-    margin-top: 0;
     margin-bottom: 10px;
 
     color: var(--title-text-color);
@@ -146,6 +194,7 @@ ul {
 
 .team-list .text {
     margin-top: 0;
+    margin-bottom: 30px;
 
     color: var(--primery-text-color);
 
