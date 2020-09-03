@@ -12,6 +12,7 @@
     --primery-white-color: #FFFFFF;
     --secondary-text-color: rgba(255, 255, 255, 0.6);
     --background-color: #2F303A;
+    --background-color-button: #F5F4FA;
 
     /* var */
 }
@@ -25,34 +26,41 @@ body {
 ul {
     list-style: none; 
  }
+
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 1200px;
-    outline: 2px solid plum;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   width: 1170px;
 }
 
 .main-container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
  }
 
 /* Портфолио */
-/* .flex-title {
+.flex-title {
    display: none;
-} */
+}
  .flex-container {
    display: flex;
    flex-wrap: wrap;
-   /* background-color: teal;
-   */
+   padding-bottom: 94px;
  }
 
+ .flex-list {
+    padding-left: 0;
+ }
  .flex-element {
    margin-right: 30px;
    margin-bottom: 30px;
@@ -68,25 +76,37 @@ ul {
    margin-bottom: 0;
  }
 /* Button */
-.button {
+
+.button-list {
    display: flex;
    justify-content: center;
-
-
+   margin-bottom: 50px;
+   margin-top: 0;
+   padding-top: 94px;
 }
- .button .primary{
-    color: var(--primery-white-color);
-    background-color: var(--accent-color);
- }
+.button {
+   padding: 10px 32px;
+   background-color: #F5F4FA;
+   border-radius: 4px;
+   border: 0;
+}
+.button-item .primery:hover {
+   color: var(--primery-white-color);
+   background-color: var(--accent-color);
+}
+.button-item {
+   margin-right: 8px;
+}
 
- .button .primary:hover,
- .button .primary:focus{
-    color: var(--accent-color);
- }
-
+.button-item:nth-child(5n) {
+   margin-right: 0;
+}
 
 /* Список */
-.link {
+.flex-image {
+   display: block;
+}
+.flex-link {
    display: block;
    text-decoration: none;
 }
@@ -94,12 +114,16 @@ ul {
    display: flex;
    flex-wrap: wrap;
    margin-bottom: 0;
+   margin-top: 0;
 }
 
 /* Елементи */
 .flex-element .content {
-   border: 1px solid teal;
+   background: #FFFFFF;
+   border: 1px solid #EEEEEE;
 }
+
+
 .flex-element .title {
     margin-top: 20px;
     margin-bottom: 0px;
@@ -113,9 +137,9 @@ ul {
 
   .flex-element .text {
    padding-left: 24px;
-    padding-right: 24px;
-    color: var(--primery-text-color);
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.87;
+   padding-right: 24px;
+   color: var(--primery-text-color);
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.87;
  } 
