@@ -32,14 +32,15 @@ img {
    width: 100%;
    height: auto;
 }
-.container {
+/* .container {
    margin-left: auto;
    margin-right: auto;
    padding-left: 15px;
    padding-right: 15px;
    width: 1170px;
-}
+} */
 
+.container, 
 .main-container {
     margin-left: auto;
     margin-right: auto;
@@ -81,8 +82,8 @@ img {
    display: flex;
    justify-content: center;
    margin-bottom: 50px;
-   margin-top: 0;
-   padding-top: 94px;
+   margin-top: 94px;
+   
 }
 .button {
    padding: 10px 32px;

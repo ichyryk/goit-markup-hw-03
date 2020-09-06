@@ -50,11 +50,9 @@ img {
 .container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 1200px;
-    /* outline: 15px solid plum; */
-
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
 }
 
 .section-title {

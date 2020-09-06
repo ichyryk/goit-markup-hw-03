@@ -33,11 +33,7 @@ ul {
 /* Site header */
 
 .page-header {
-    margin-left: auto;
-    margin-right: auto;
     background-color: var(--primery-white-color);
-    padding-left: 20px;
-   
 }
 
 .page-header .logo {
@@ -56,6 +52,8 @@ ul {
 .main-nav {
     display: flex;
     align-items: center;
+    margin-left: 0;
+    margin-right: auto;
 }
 
 /* Site nav */
