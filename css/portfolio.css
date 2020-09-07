@@ -83,6 +83,7 @@ img {
    justify-content: center;
    margin-bottom: 50px;
    margin-top: 94px;
+   padding-left: 0;
    
 }
 .button {
@@ -122,14 +123,16 @@ img {
 .flex-element .content {
    background: #FFFFFF;
    border: 1px solid #EEEEEE;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 24px;
+   padding-right: 24px;
 }
 
 
 .flex-element .title {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-top: 0;
+    margin-bottom: 4px;
     color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
@@ -137,8 +140,8 @@ img {
  }
 
   .flex-element .text {
-   padding-left: 24px;
-   padding-right: 24px;
+   margin-top: 0;
+   margin-bottom: 0;
    color: var(--primery-text-color);
    font-weight: normal;
    font-size: 16px;

@@ -53,7 +53,6 @@ ul {
     display: flex;
     align-items: center;
     margin-left: 0;
-    margin-right: auto;
 }
 
 /* Site nav */
@@ -170,6 +169,8 @@ ul {
 .contact-footer {
     padding-left: 0;
     font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .contact-footer .link:hover,
